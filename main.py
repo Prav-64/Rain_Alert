@@ -5,8 +5,8 @@ from twilio.rest import Client
 
 OWM_API_KEY = os.environ.get("OWM_API_KEY")
 OWM_API_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
-LAT = os.environ.get("MY_LAT")
-LON = os.environ.get("MY_LON")
+LAT = os.environ.get("LAT")
+LON = os.environ.get("LON")
 
 RECIPIENT_NUMBER = os.environ("RECIPIENT_NUMBER")
 TWILIO_SID = os.environ.get("TWILIO_SID")
