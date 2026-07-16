@@ -25,8 +25,8 @@ jobs:
       - name: Run Rain Alert Script
         env:
           OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
-          MY_LAT: ${{ secrets.MY_LAT }}
-          MY_LON: ${{ secrets.MY_LON }}
+          LAT: ${{ secrets.MY_LAT }}
+          LON: ${{ secrets.MY_LON }}
           TWILIO_SID: ${{ secrets.TWILIO_SID }}
           TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
           TWILIO_NUMBER: ${{ secrets.TWILIO_NUMBER }}
