@@ -9,7 +9,7 @@ LON = os.environ.get("LON")
 TWILIO_SID = os.environ.get("TWILIO_SID")
 TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
 TWILIO_NUMBER = os.environ.get("TWILIO_NUMBER")
-RECIPIENT_NUMBER = os.environ("RECIPIENT_NUMBER")
+RECIPIENT_NUMBER = os.environ.get("RECIPIENT_NUMBER")
 
 weather_request_params = {
     "lat": LAT,
